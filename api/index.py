@@ -343,6 +343,198 @@ PRIVACY_POLICY_HTML = """
   </body>
 </html>
 """
+CASH_TERMS_HTML = """
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DzRide Cash Terms</title>
+    <style>
+      :root{--maxw:900px;--accent:#00d12e;--dzride-green:#00d12e;--dark-gray:#1a1a1a;--light-gray:#f5f5f5}
+      body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:#f7f9fc; color:#1b1f23; line-height:1.6}
+      .container{max-width:var(--maxw); margin:40px auto; background:#fff; padding:28px; border-radius:12px; box-shadow:0 6px 24px rgba(12,18,30,0.06)}
+      header{display:flex; align-items:center; gap:18px; border-bottom:1px solid #eaeaea; padding-bottom:20px}
+      .logo{width:56px; height:56px; border-radius:10px; background:linear-gradient(135deg,var(--dzride-green),#6bff8f); display:flex; align-items:center; justify-content:center; color:#fff; font-weight:700; font-size:24px}
+      h1{margin:0; font-size:24px; color:var(--dark-gray)}
+      h2{font-size:20px; margin:25px 0 15px 0; color:var(--dark-gray)}
+      h3{font-size:18px; margin:20px 0 10px 0; color:var(--dark-gray)}
+      .contact-info{background:var(--light-gray); padding:20px; border-radius:8px; margin:20px 0}
+      .contact-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:15px}
+      .contact-item{display:flex; flex-direction:column}
+      .contact-label{font-weight:600; color:var(--dark-gray); font-size:14px}
+      .contact-value{color:var(--dzride-green); font-weight:500}
+      .last-update{color:#666; font-size:14px; margin-top:10px}
+      p.lead{color:#374151; font-size:16px}
+      nav.breadcrumb{font-size:13px; color:#6b7280; margin-top:10px}
+      section{margin-top:22px}
+      ul{margin:8px 0 16px 20px}
+      .muted{color:#6b7280}
+      footer{margin-top:28px; font-size:13px; color:#6b7280; border-top:1px solid #eaeaea; padding-top:20px}
+      .notice{background:#f0f9ff; border-left:4px solid var(--accent); padding:12px; border-radius:6px; margin:15px 0}
+      .payment-method{background:#f9f9f9; padding:15px; border-radius:8px; margin:15px 0; border-left:4px solid var(--dzride-green)}
+      .section-list{list-style:none; padding:0; margin:20px 0}
+      .section-list li{margin-bottom:8px; padding-left:15px; position:relative}
+      .section-list li:before{content:"•"; color:var(--dzride-green); position:absolute; left:0}
+      @media (max-width:640px){.container{margin:18px;padding:18px}}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">DzRide</div>
+        <div>
+          <h1>Cash Terms & Payment Methods</h1>
+          <div class="muted">Effective: June 30, 2025</div>
+        </div>
+      </header>
+
+      <nav class="breadcrumb">Home / Legal / Cash Terms</nav>
+
+      <div class="contact-info">
+        <h3 style="margin-top:0">Customer Service</h3>
+        <div class="contact-grid">
+          <div class="contact-item">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">hamza.faiz.ahmedfouatih@ensia.edu.dz</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">Phone</span>
+            <span class="contact-value">052322418</span>
+          </div>
+        </div>
+        <div class="last-update">Last Update: June 30, 2025</div>
+      </div>
+
+      <p class="lead">This document outlines the terms and conditions for adding credit to your DzRide account using CCP (Algeria Post) and other payment methods available in Algeria.</p>
+
+      <section>
+        <h2>1. Accepted Payment Methods</h2>
+        <p>DzRide accepts the following payment methods for adding credit to your account:</p>
+        
+        <div class="payment-method">
+          <h3>🇩🇿 CCP (Algeria Post)</h3>
+          <p><strong>Primary payment method for Algerian users</strong></p>
+          <ul>
+            <li>Add credit to your DzRide account through any Algeria Post office</li>
+            <li>Minimum deposit: 500 DZD</li>
+            <li>Maximum deposit: 50,000 DZD per transaction</li>
+            <li>Processing time: 1-4 hours during business days</li>
+          </ul>
+        </div>
+
+        <div class="payment-method">
+          <h3>💳 Credit/Debit Cards</h3>
+          <ul>
+            <li>Visa, Mastercard accepted</li>
+            <li>Algerian-issued cards only</li>
+            <li>Real-time processing</li>
+          </ul>
+        </div>
+
+        <div class="payment-method">
+          <h3>📱 Mobile Payment</h3>
+          <ul>
+            <li>Djezzy, Mobilis, and Ooredoo mobile payment</li>
+            <li>Available through partner mobile operators</li>
+            <li>Instant processing</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>2. How to Add Credit via CCP</h2>
+        <ol>
+          <li>Visit any Algeria Post office (Bureau de Poste)</li>
+          <li>Request to deposit funds to DzRide account</li>
+          <li>Provide your DzRide account number (phone number)</li>
+          <li>Make the cash deposit</li>
+          <li>Keep the receipt as proof of payment</li>
+          <li>Funds will be available in your account within 1-4 hours</li>
+        </ol>
+        
+        <div class="notice">
+          <p><strong>Important:</strong> Always ensure you provide the correct DzRide account number (your registered phone number) to avoid delays or misallocated funds.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>3. Transaction Limits</h2>
+        <ul>
+          <li><strong>Daily deposit limit:</strong> 100,000 DZD</li>
+          <li><strong>Monthly deposit limit:</strong> 1,000,000 DZD</li>
+          <li><strong>Account balance limit:</strong> 500,000 DZD</li>
+          <li><strong>Minimum ride cost:</strong> 50 DZD</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>4. Refund Policy</h2>
+        <p>Refunds for account credit are available under the following conditions:</p>
+        <ul>
+          <li>Refund requests must be submitted via email to our support team</li>
+          <li>Only unused credit is eligible for refund</li>
+          <li>Refunds to CCP accounts may take 5-10 business days</li>
+          <li>A 5% processing fee applies to all refunds</li>
+          <li>Refund requests are processed within 7 business days</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>5. Currency and Fees</h2>
+        <ul>
+          <li>All transactions are in Algerian Dinar (DZD)</li>
+          <li>No fees for deposits via CCP</li>
+          <li>Credit card transactions: 2% processing fee</li>
+          <li>Mobile payments: 1.5% processing fee</li>
+          <li>All fees are clearly displayed before transaction confirmation</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>6. Security Measures</h2>
+        <p>We implement the following security measures to protect your financial transactions:</p>
+        <ul>
+          <li>SSL encryption for all online transactions</li>
+          <li>Two-factor authentication for large transactions</li>
+          <li>Regular security audits and monitoring</li>
+          <li>Compliance with Algerian financial regulations</li>
+          <li>Secure partnership with Algeria Post for CCP transactions</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>7. Dispute Resolution</h2>
+        <p>If you encounter issues with CCP deposits:</p>
+        <ol>
+          <li>Contact DzRide support within 24 hours of the transaction</li>
+          <li>Provide your CCP receipt details</li>
+          <li>We will investigate and resolve within 3 business days</li>
+          <li>For unresolved issues, contact Algeria Post customer service</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>8. Contact Information</h2>
+        <p>For payment-related inquiries:</p>
+        <ul>
+          <li>Email: hamza.faiz.ahmedfouatih@ensia.edu.dz</li>
+          <li>Phone: 052322418</li>
+          <li>Support Hours: 8:00 AM - 6:00 PM (Algiers Time)</li>
+          <li>Emergency support for payment issues: Available 24/7</li>
+        </ul>
+      </section>
+
+      <footer>© 2025 Neutron Holdings Inc., dba DzRide — All rights reserved.</footer>
+    </div>
+  </body>
+</html>
+"""
+
+# Add this route to your Flask app
+@app.route('/cash-terms')
+def cash_terms():
+    return render_template_string(CASH_TERMS_HTML)
 
 @app.route('/user-agreement')
 def user_agreement():
@@ -354,7 +546,10 @@ def privacy_policy():
 
 @app.route('/')
 def index():
-    return ("<p>Flask app is running. Visit <a href='" + url_for('user_agreement') + "'>/user-agreement</a> or <a href='" + url_for('privacy_policy') + "'>/privacy-policy</a></p>")
+    return ("<p>Flask app is running. Visit: " +
+            "<a href='" + url_for('user_agreement') + "'>/user-agreement</a> | " +
+            "<a href='" + url_for('privacy_policy') + "'>/privacy-policy</a> | " +
+            "<a href='" + url_for('cash_terms') + "'>/cash-terms</a></p>")
 
 if __name__ == '__main__':
     # For local development only. Vercel will serve via WSGI.
