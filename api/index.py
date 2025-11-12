@@ -64,12 +64,12 @@ USER_AGREEMENT_HTML = """
 # Routes
 @app.route('/user-agreement')
 def user_agreement():
-return render_template_string(USER_AGREEMENT_HTML)
+    return render_template_string(USER_AGREEMENT_HTML)
 
 
 @app.route('/')
 def index():
-return ("<p>Flask app is running. Visit <a href='" + url_for('user_agreement') + "'>/user-agreement</a></p>")
+    return ("<p>Flask app is running. Visit <a href='" + url_for('user_agreement') + "'>/user-agreement</a></p>")
 
 # Export the Flask app for Vercel
 if __name__ == '__main__':
